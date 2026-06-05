@@ -179,7 +179,7 @@ Mena Tharwot -
 Maria Soliman -
 Youstina Bassim -
 Mahmoud Amr -
-Amgad Ayman -
+Amgad Ayman 
 
 Faculty of Computers and Artificial Intelligence
 
