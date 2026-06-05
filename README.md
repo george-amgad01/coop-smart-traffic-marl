@@ -172,14 +172,14 @@ This project was developed as part of Work-Based Professional Project course and
 
 Graduation Project Team : 
 
-George Amgad Anwer 
-Samaan Melad Amin
-Amir Roshdy Shawky
-Mena Tharwot Sohsah 
-Maria Soliman Azer
-Youstina Bassim Makin
-Mahmoud Amr Mahmoud 
-Amgad Ayman Nadi 
+George Amgad -
+Samaan Melad -
+Amir Roshdy -
+Mena Tharwot -
+Maria Soliman -
+Youstina Bassim -
+Mahmoud Amr -
+Amgad Ayman -
 
 Faculty of Computers and Artificial Intelligence
 
