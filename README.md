@@ -108,9 +108,10 @@ Reward and constraint metrics are recomputed every step by `RewardComputer` and
 ├── mappo/                                  # Core MAPPO implementation
 │   ├── mappo_optimized_4.py                # ★ Main entry point — training + evaluation
 │   ├── mappo_evaluator.py                  # Evaluate a saved checkpoint (greedy, no training)
-│   └── sumo_topology.py                    # Parses .net.xml → TLS graph & adjacency matrix
 │
 ├── baselines/
+│   ├── sumo_topology/
+│   │   └── sumo_topology.py                # Parses .net.xml → TLS graph & adjacency matrix
 │   └── fixed_time/
 │       └── fixed_time_for_mappo_4.py       # Fixed-Time baseline (comparison arm)
 │
@@ -128,20 +129,18 @@ Reward and constraint metrics are recomputed every step by `RewardComputer` and
 │   └── test_7_geo_proximity.py             # Prints torch version (not a test — see below)
 │
 ├── sumo/                                   # Simulation assets
-│   ├── project (2).sumocfg                 # ★ Simulation config (paths resolve correctly)
+│   ├── project (2).sumocfg                 # ★ Simulation config
 │   ├── network/
-│   │   └── Version 3 George.net.xml        # 2.9 MB — 1296 junctions, 4153 edges, 9 TLS
+│   │   └── Version 3 George.net.xml        # 1296 junctions, 4153 edges, 9 TLS
 │   ├── routes/
 │   │   └── project (1).rou.xml             # Demand: 42 flows, 5 vehicle types
 │   ├── detectors/
 │   │   ├── project (2).add.xml             # 98 laneAreaDetectors
-│   │   └── e2_0.xml … e2_94.xml            # Detector outputs (git-ignored, see Known issues)
-│   ├── netedit_sessions/                   # 14 netedit project saves (version history)
-│   ├── routes_legacy/                      # 2 superseded route files, kept for provenance
-│   ├── source_osm/                         # Raw OSM import: nodes, edges, connections
-│   └── legacy_configs/                     # Old configs with dead absolute paths
+│   │   └── e2_0.xml … e2_94.xml            # Detector outputs 
+│   ├── netedit_sessions/                   # netedit project
+│   └── source_osm/                         # Raw OSM import: nodes, edges, connections
+│    
 │
-├── results/                                # Output dir for plots & logs (.gitkeep)
 ├── requirements.txt                        # Dependencies
 ├── LICENSE                                 # MIT
 └── .gitattributes                          # Line endings pinned to LF
