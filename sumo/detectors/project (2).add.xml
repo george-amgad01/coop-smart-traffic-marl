@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-10T01:15:15.045820+02:00 by Eclipse SUMO netedit 1.26.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <laneAreaDetector id="det_TLS_1_E_L1" lane="1092013771#1_1" pos="256.18" length="10.00" period="300.00" file="e2_17.xml"/>
+    <laneAreaDetector id="det_TLS_1_E_L2" lane="1092013771#1_0" pos="256.00" length="10.00" period="300.00" file="e2_16.xml"/>
+    <laneAreaDetector id="det_TLS_1_E_L3" lane="601415729#0_1" pos="14.57" length="10.00" period="300.00" file="e2_12.xml"/>
+    <laneAreaDetector id="det_TLS_1_E_L4" lane="601415729#0_0" pos="14.65" length="10.00" period="300.00" file="e2_13.xml"/>
+    <laneAreaDetector id="det_TLS_1_W_L1" lane="624068902#0_0" pos="237.20" length="10.00" period="300.00" file="e2_15.xml"/>
+    <laneAreaDetector id="det_TLS_1_W_L2" lane="624068902#0_1" pos="237.31" length="10.00" period="300.00" file="e2_14.xml"/>
+    <laneAreaDetector id="det_TLS_1_W_L3" lane="1091885606#0_0" pos="9.46" length="10.00" period="300.00" file="e2_18.xml"/>
+    <laneAreaDetector id="det_TLS_1_W_L4" lane="1091885606#0_1" pos="9.15" length="10.00" period="300.00" file="e2_19.xml"/>
+    <laneAreaDetector id="det_TLS_2_E_L1" lane="601421695#6_1" pos="30.92" length="10.00" period="300.00" file="e2_2.xml"/>
+    <laneAreaDetector id="det_TLS_2_E_L2" lane="601421695#6_0" pos="31.12" length="10.00" period="300.00" file="e2_0.xml"/>
+    <laneAreaDetector id="det_TLS_2_E_L3" lane="601421695#10_1" pos="13.84" length="10.00" period="300.00" file="e2_7.xml"/>
+    <laneAreaDetector id="det_TLS_2_E_L4" lane="601421695#10_0" pos="14.41" length="10.00" period="300.00" file="e2_8.xml"/>
+    <laneAreaDetector id="det_TLS_2_S_L1" lane="node_kobry_1_0" pos="76.45" length="10.00" period="300.00" file="e2_11.xml"/>
+    <laneAreaDetector id="det_TLS_2_S_L2" lane="node_kobry_1_1" pos="75.88" length="10.00" period="300.00" file="e2_10.xml"/>
+    <laneAreaDetector id="det_TLS_2_S_L3" lane="node_kobry_1_2" pos="75.77" length="10.00" period="300.00" file="e2_6.xml"/>
+    <laneAreaDetector id="det_TLS_2_S_L4" lane="node_kobry_1_3" pos="75.68" length="10.00" period="300.00" file="e2_9.xml"/>
+    <laneAreaDetector id="det_TLS_2_W_L1" lane="601421694#1_0" pos="277.98" length="10.00" period="300.00" file="e2_5.xml"/>
+    <laneAreaDetector id="det_TLS_2_W_L2" lane="601421694#1_1" pos="277.84" length="10.00" period="300.00" file="e2_4.xml"/>
+    <laneAreaDetector id="det_TLS_2_W_L3" lane="601421694#5_0" pos="10.52" length="10.00" period="300.00" file="e2_1.xml"/>
+    <laneAreaDetector id="det_TLS_2_W_L4" lane="601421694#5_1" pos="11.06" length="10.00" period="300.00" file="e2_3.xml"/>
+    <laneAreaDetector id="det_TLS_3_E_L1" lane="601415720#1_3" pos="4.29" length="10.00" friendlyPos="1" period="300.00" file="e2_76.xml"/>
+    <laneAreaDetector id="det_TLS_3_E_L2" lane="601415720#1_2" pos="4.84" length="10.00" friendlyPos="1" period="300.00" file="e2_81.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1" lane="E3_2" pos="140.34" length="10.00" period="300.00" file="e2_79.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_N_L1" lane="699648139#10_2" pos="55.53" length="10.00" friendlyPos="1" period="300.00" file="e2_45.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_N_L2" lane="699648139#10_1" pos="55.17" length="10.00" friendlyPos="1" period="300.00" file="e2_44.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_N_L3" lane="699648139#10_0" pos="55.53" length="10.00" friendlyPos="1" period="300.00" file="e2_42.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_N_L4" lane="699648139#12_2" pos="12.77" length="10.00" period="300.00" file="e2_35.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_N_L5" lane="699648139#12_1" pos="13.19" length="10.00" period="300.00" file="e2_37.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_N_L6" lane="699648139#12_0" pos="12.84" length="10.00" period="300.00" file="e2_36.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_S_L1" lane="674574458#2_0" pos="49.67" length="10.00" period="300.00" file="e2_34.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_S_L2" lane="674574458#2_1" pos="49.87" length="10.00" period="300.00" file="e2_33.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_S_L3" lane="674574458#2_2" pos="49.62" length="10.00" period="300.00" file="e2_32.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_S_L4" lane="674574458#3_0" pos="15.11" length="10.00" period="300.00" file="e2_41.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_S_L5" lane="674574458#3_1" pos="14.89" length="10.00" period="300.00" file="e2_43.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_S_L6" lane="674574458#3_2" pos="15.00" length="10.00" period="300.00" file="e2_39.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_W_L1" lane="97608215#1_0" pos="14.63" length="10.00" period="300.00" file="e2_38.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L1det_TLS_5_W_L2" lane="97608215#1_1" pos="14.70" length="10.00" period="300.00" file="e2_40.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L2" lane="E3_1" pos="140.03" length="10.00" period="300.00" file="e2_77.xml"/>
+    <laneAreaDetector id="det_TLS_3_N_L3" lane="E3_0" pos="140.39" length="10.00" period="300.00" file="e2_78.xml"/>
+    <laneAreaDetector id="det_TLS_4_E_L1" lane="E13_1" pos="2.13" length="10.00" period="300.00" file="e2_21.xml"/>
+    <laneAreaDetector id="det_TLS_4_E_L2" lane="E13_0" pos="1.92" length="10.00" period="300.00" file="e2_20.xml"/>
+    <laneAreaDetector id="det_TLS_4_E_L3" lane="E12_1" pos="15.14" length="10.00" period="300.00" file="e2_22.xml"/>
+    <laneAreaDetector id="det_TLS_4_E_L4" lane="E12_0" pos="14.87" length="10.00" period="300.00" file="e2_23.xml"/>
+    <laneAreaDetector id="det_TLS_4_N_L1" lane="818010313#0_1" pos="15.29" length="10.00" period="300.00" file="e2_28.xml"/>
+    <laneAreaDetector id="det_TLS_4_N_L2" lane="818010313#0_0" pos="15.18" length="10.00" period="300.00" file="e2_29.xml"/>
+    <laneAreaDetector id="det_TLS_4_N_L3" lane="818010313#_1" pos="11.71" length="10.00" period="300.00" file="e2_26.xml"/>
+    <laneAreaDetector id="det_TLS_4_N_L4" lane="818010313#_0" pos="11.52" length="10.00" period="300.00" file="e2_27.xml"/>
+    <laneAreaDetector id="det_TLS_4_S_L1" lane="624068904#1_0" pos="261.46" length="10.00" period="300.00" file="e2_24.xml"/>
+    <laneAreaDetector id="det_TLS_4_S_L2" lane="624068904#1_1" pos="260.79" length="10.00" period="300.00" file="e2_25.xml"/>
+    <laneAreaDetector id="det_TLS_4_S_L3" lane="624068904#3_0" pos="11.47" length="10.00" period="300.00" file="e2_31.xml"/>
+    <laneAreaDetector id="det_TLS_4_S_L4" lane="624068904#3_1" pos="11.23" length="10.00" period="300.00" file="e2_30.xml"/>
+    <laneAreaDetector id="det_TLS_6_E_L1" lane="701612373#5_1" pos="2.33" length="10.00" period="300.00" file="e2_52.xml"/>
+    <laneAreaDetector id="det_TLS_6_E_L2" lane="701612373#5_0" pos="2.05" length="10.00" period="300.00" file="e2_54.xml"/>
+    <laneAreaDetector id="det_TLS_6_N_L1" lane="834617703#2_2" pos="446.68" length="10.00" period="300.00" file="e2_56.xml"/>
+    <laneAreaDetector id="det_TLS_6_N_L2" lane="834617703#2_1" pos="446.72" length="10.00" period="300.00" file="e2_57.xml"/>
+    <laneAreaDetector id="det_TLS_6_N_L3" lane="834617703#2_0" pos="446.50" length="10.00" period="300.00" file="e2_58.xml"/>
+    <laneAreaDetector id="det_TLS_6_N_L4" lane="834617703#4_2" pos="12.21" length="10.00" period="300.00" file="e2_50.xml"/>
+    <laneAreaDetector id="det_TLS_6_N_L5" lane="834617703#4_1" pos="12.53" length="10.00" period="300.00" file="e2_49.xml"/>
+    <laneAreaDetector id="det_TLS_6_N_L6" lane="834617703#4_0" pos="12.72" length="10.00" period="300.00" file="e2_51.xml"/>
+    <laneAreaDetector id="det_TLS_6_S_L1" lane="738247820#10_0" pos="44.22" length="10.00" period="300.00" file="e2_46.xml"/>
+    <laneAreaDetector id="det_TLS_6_S_L2" lane="738247820#10_1" pos="44.53" length="10.00" period="300.00" file="e2_47.xml"/>
+    <laneAreaDetector id="det_TLS_6_S_L3" lane="738247820#10_2" pos="44.61" length="10.00" period="300.00" file="e2_48.xml"/>
+    <laneAreaDetector id="det_TLS_6_S_L4" lane="738247820#12_0" pos="14.88" length="10.00" period="300.00" file="e2_59.xml"/>
+    <laneAreaDetector id="det_TLS_6_S_L5" lane="738247820#12_1" pos="14.40" length="10.00" period="300.00" file="e2_60.xml"/>
+    <laneAreaDetector id="det_TLS_6_S_L6" lane="738247820#12_2" pos="14.57" length="10.00" period="300.00" file="e2_61.xml"/>
+    <laneAreaDetector id="det_TLS_6_W_L1" lane="398334235#1_0" pos="14.16" length="10.00" period="300.00" file="e2_55.xml"/>
+    <laneAreaDetector id="det_TLS_6_W_L2" lane="398334235#1_1" pos="14.55" length="10.00" period="300.00" file="e2_53.xml"/>
+    <laneAreaDetector id="det_TLS_7_E_L1" lane="701580159#7_0" pos="51.09" length="10.00" period="300.00" file="e2_94.xml"/>
+    <laneAreaDetector id="det_TLS_7_E_L2" lane="-836435064_1" pos="13.00" length="10.00" period="300.00" file="e2_0.xml"/>
+    <laneAreaDetector id="det_TLS_7_E_L3" lane="-836435064_0" pos="13.64" length="10.00" period="300.00" file="e2_1.xml"/>
+    <laneAreaDetector id="det_TLS_7_S_L1" lane="94168907#3_0" pos="56.28" length="10.00" period="300.00" file="e2_90.xml"/>
+    <laneAreaDetector id="det_TLS_7_S_L2" lane="94168907#3_1" pos="56.40" length="10.00" period="300.00" file="e2_89.xml"/>
+    <laneAreaDetector id="det_TLS_7_S_L3" lane="297204609#1_0" pos="14.99" length="10.00" period="300.00" file="e2_91.xml"/>
+    <laneAreaDetector id="det_TLS_7_S_L4" lane="297204609#1_1" pos="14.76" length="10.00" period="300.00" file="e2_92.xml"/>
+    <laneAreaDetector id="det_TLS_7_W_L1" lane="701132859#0_0" pos="10.00" length="10.00" period="300.00" file="e2_93.xml"/>
+    <laneAreaDetector id="det_TLS_8_E_L1" lane="701386397#10_1" pos="8.36" length="10.00" period="300.00" file="e2_72.xml"/>
+    <laneAreaDetector id="det_TLS_8_E_L2" lane="701386397#10_0" pos="8.12" length="10.00" period="300.00" file="e2_73.xml"/>
+    <laneAreaDetector id="det_TLS_8_N_L1" lane="834617700#2_1" pos="5.27" length="10.00" period="300.00" file="e2_69.xml"/>
+    <laneAreaDetector id="det_TLS_8_N_L2" lane="834617700#2_0" pos="5.38" length="10.00" period="300.00" file="e2_71.xml"/>
+    <laneAreaDetector id="det_TLS_8_N_L3" lane="834617703#2_2" pos="12.79" length="10.00" period="300.00" file="e2_64.xml"/>
+    <laneAreaDetector id="det_TLS_8_N_L4" lane="834617703#2_1" pos="12.46" length="10.00" period="300.00" file="e2_65.xml"/>
+    <laneAreaDetector id="det_TLS_8_N_L5" lane="834617703#2_0" pos="12.58" length="10.00" period="300.00" file="e2_66.xml"/>
+    <laneAreaDetector id="det_TLS_8_S_L1" lane="738247820#17_0" pos="182.16" length="10.00" period="300.00" file="e2_68.xml"/>
+    <laneAreaDetector id="det_TLS_8_S_L2" lane="738247820#17_1" pos="181.94" length="10.00" period="300.00" file="e2_62.xml"/>
+    <laneAreaDetector id="det_TLS_8_S_L3" lane="738247820#17_2" pos="182.31" length="10.00" period="300.00" file="e2_63.xml"/>
+    <laneAreaDetector id="det_TLS_8_S_L4" lane="-834617700#2_0" pos="14.38" length="10.00" period="300.00" file="e2_70.xml"/>
+    <laneAreaDetector id="det_TLS_8_S_L5" lane="-834617700#2_1" pos="14.24" length="10.00" period="300.00" file="e2_67.xml"/>
+    <laneAreaDetector id="det_TLS_8_W_L1" lane="398334240#2_0" pos="14.49" length="10.00" period="300.00" file="e2_75.xml"/>
+    <laneAreaDetector id="det_TLS_8_W_L2" lane="398334240#2_1" pos="14.63" length="10.00" period="300.00" file="e2_74.xml"/>
+    <laneAreaDetector id="det_TLS_9_S_L1" lane="297204609#24_0" pos="44.13" length="10.00" period="300.00" file="e2_84.xml"/>
+    <laneAreaDetector id="det_TLS_9_S_L2" lane="297204609#24_1" pos="44.84" length="10.00" period="300.00" file="e2_83.xml"/>
+    <laneAreaDetector id="det_TLS_9_S_L3" lane="297204609#25_0" pos="14.88" length="10.00" period="300.00" file="e2_85.xml"/>
+    <laneAreaDetector id="det_TLS_9_S_L4" lane="297204609#25_1" pos="14.96" length="10.00" period="300.00" file="e2_86.xml"/>
+    <laneAreaDetector id="det_TLS_9_W_L1" lane="820440644#4_1" pos="26.05" length="10.00" period="300.00" file="e2_82.xml"/>
+    <laneAreaDetector id="det_TLS_9_W_L2" lane="820440644#4_0" pos="25.98" length="10.00" period="300.00" file="e2_80.xml"/>
+    <laneAreaDetector id="det_TLS_9_W_L3" lane="820440644#5_1" pos="14.22" length="10.00" period="300.00" file="e2_87.xml"/>
+    <laneAreaDetector id="det_TLS_9_W_L4" lane="820440644#5_0" pos="14.02" length="10.00" period="300.00" file="e2_88.xml"/>
+    <laneAreaDetector id="e2_0" lane="E16_0" pos="26.26" length="10.00" period="300.00" file="e2_0.xml"/>
+</additional>

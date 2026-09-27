@@ -1,0 +1,22 @@
+# Core: required for training, evaluation, and the fixed-time baseline.
+# torch>=2.4 is a hard floor: the code calls torch.amp.autocast('cuda', ...)
+# and GradScaler('cuda', ...), whose device_type-first signature landed in 2.4.
+torch>=2.4
+numpy>=1.24
+matplotlib>=3.7
+
+# analysis/agent_analyzer.py
+# Both are optional at runtime -- the module degrades gracefully if either
+# is missing (try/except ImportError with plain-print fallbacks).
+pandas>=2.0
+rich>=13.0
+
+# tests/
+# Only the two topology-visualisation tests need this.
+networkx>=3.0
+
+# Provided by SUMO, NOT pip-installable.
+# traci / sumolib ship inside the SUMO distribution. Set SUMO_HOME, then:
+#   Linux/macOS : export PYTHONPATH="$SUMO_HOME/tools:$PYTHONPATH"
+#   Windows     : set PYTHONPATH=%SUMO_HOME%\tools;%PYTHONPATH%
+# Every entry point also appends $SUMO_HOME/tools to sys.path at import time.

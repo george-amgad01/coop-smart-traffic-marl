@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-03-21T14:14:48.990765+02:00 by Eclipse SUMO netedit 1.26.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="authority" vClass="authority" guiShape="police"/>
+    <vType id="bicycle" vClass="bicycle"/>
+    <vType id="bus" vClass="bus" color="yellow"/>
+    <vType id="emergency" vClass="emergency"/>
+    <vType id="scooter" vClass="scooter"/>
+    <vType id="taxi" vClass="taxi"/>
+    <vType id="trailer" vClass="trailer"/>
+    <vType id="truck" vClass="truck"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <trip id="t_0" depart="0.00" from="674574458#2" to="97608215#1"/>
+    <trip id="t_1" depart="0.00" from="674574458#2" to="674574458#3"/>
+    <trip id="t_2" depart="0.00" from="699648139#10" to="97608215#1"/>
+    <trip id="t_3" depart="0.00" from="699648139#10" to="674574458#3"/>
+    <trip id="t_4" depart="0.00" from="1092013771#1" to="601421695#10" via="E14"/>
+    <flow id="f_0" begin="0.00" end="3600.00" perHour="1800.00" from="738247820#17" to="-834617700#1"/>
+    <flow id="f_1" begin="0.00" end="3600.00" perHour="1800.00" from="834617700#1" to="834617703#2"/>
+    <flow id="f_2" begin="0.00" end="3600.00" perHour="1800.00" from="738247820#17" to="398334240#2"/>
+    <flow id="f_3" begin="0.00" end="3600.00" perHour="1800.00" from="834617700#1" to="-834617700#1"/>
+    <flow id="f_4" begin="0.00" end="3600.00" perHour="1800.00" from="834617700#1" to="398334240#2"/>
+    <flow id="f_5" begin="0.00" end="3600.00" perHour="1800.00" from="701386397#9" to="834617703#2"/>
+    <flow id="f_6" begin="0.00" end="3600.00" perHour="1800.00" from="701386397#9" to="-834617700#1" via="-834617700#2"/>
+    <flow id="f_7" begin="0.00" end="3600.00" perHour="1800.00" from="601421695#11" to="738247820#1-AddedOnRampEdge"/>
+    <flow id="f_8" begin="0.00" end="3600.00" perHour="1800.00" from="-222568283#3" to="E10"/>
+    <flow id="f_9" begin="0.00" end="3600.00" perHour="1800.00" from="818010311#3" to="222568283#5" via="-E10 222568283#3"/>
+</routes>

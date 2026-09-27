@@ -1,0 +1,16 @@
+# Normalise line endings on commit; restore LF on checkout.
+# This overrides the system-wide core.autocrlf=true that otherwise rewrote
+# this repository's original LF Python files to CRLF.
+* text=auto
+
+*.py      text eol=lf
+*.md      text eol=lf
+*.xml     text eol=lf
+*.sumocfg text eol=lf
+*.rou.xml text eol=lf
+*.net.xml text eol=lf
+
+# Generated / binary artefacts
+*.pt  binary
+*.png binary
+*.mp4 binary

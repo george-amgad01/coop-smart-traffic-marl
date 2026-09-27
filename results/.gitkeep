@@ -1,0 +1,13 @@
+# Output directory for generated plots and logs.
+#
+# This folder is kept in the repository (via this file) so it survives the push.
+# Its contents are produced at runtime and are intentionally NOT committed:
+#
+#   mappo_training.png                     mappo/mappo_optimized_4.py
+#   mappo_comparison.png                   mappo/mappo_optimized_4.py
+#   fixedtime_simulation_results.png       baselines/fixed_time/fixed_time_for_mappo_4.py
+#   fixedtime_intersection_comparison.png  baselines/fixed_time/fixed_time_for_mappo_4.py
+#   sumo_errors.log                        both
+#
+# Note: by default the scripts write to their own `saved_models/` directory
+# rather than here. Pass --results-save-path results/ to redirect output here.

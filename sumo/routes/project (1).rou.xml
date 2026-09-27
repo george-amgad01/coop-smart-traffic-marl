@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-25T19:22:01.739887+02:00 by Eclipse SUMO netedit 1.26.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="bus" vClass="bus"/>
+    <vType id="car"/>
+    <vType id="emergency" vClass="emergency" guiShape="emergency"/>
+    <vType id="police" vClass="authority" guiShape="police"/>
+    <vType id="truck" vClass="truck"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="bus_1" type="bus" begin="0.00" end="3600.00" period="exp(0.05000000000000000278)" fromJunction="7806952785" toJunction="6640301060"/>
+    <flow id="bus_2" type="bus" begin="0.00" end="3600.00" period="exp(0.05000000000000000278)" color="255,0,88" fromJunction="4030969295" toJunction="1094558909"/>
+    <flow id="bus_3" type="bus" begin="0.00" end="3600.00" period="exp(0.05000000000000000278)" fromJunction="4030969295" toJunction="cluster_1094556896_4030989866"/>
+    <flow id="bus_4" type="bus" begin="0.00" end="3600.00" period="exp(0.02999999999999999889)" color="255,233,0" fromJunction="J24" toJunction="J28"/>
+    <flow id="bus_5" type="bus" begin="0.00" end="1800.00" period="exp(0.04000000000000000083)" color="174,255,0" fromJunction="4229667114" toJunction="6583781471"/>
+    <flow id="bus_6" type="bus" begin="0.00" end="3600.00" period="exp(0.04000000000000000083)" color="128,0,0" fromJunction="J4" toJunction="J17"/>
+    <flow id="emergency_1" type="emergency" begin="0.00" end="3600.00" period="exp(0.01000000000000000021)" color="217,255,0" fromJunction="7806952785" toJunction="J20"/>
+    <flow id="emergency_2" type="emergency" begin="0.00" end="3600.00" period="exp(0.01000000000000000021)" color="217,255,0" fromJunction="7806952785" toJunction="6640450606"/>
+    <flow id="emergency_3" type="emergency" begin="0.00" end="3600.00" period="exp(0.01000000000000000021)" color="217,255,0" fromJunction="4030969295" toJunction="cluster_1094556896_4030989866"/>
+    <flow id="emergency_4" type="emergency" begin="0.00" end="3600.00" period="exp(0.01000000000000000021)" color="white" fromJunction="J8" toJunction="6583781451"/>
+    <flow id="emergency_5" type="emergency" begin="0.00" end="1800.00" period="exp(0.02000000000000000042)" color="247,255,0" fromJunction="4229667114" toJunction="6583781471"/>
+    <flow id="emergency_6" type="emergency" begin="0.00" end="3600.00" period="exp(0.02000000000000000042)" color="white" fromJunction="J4" toJunction="J17"/>
+    <flow id="f_0" begin="0.00" end="3600.00" period="exp(0.14999999999999999445)" fromJunction="7806952785" toJunction="6587224543"/>
+    <flow id="f_1" begin="0.00" end="3500.00" period="exp(0.22000000000000000111)" color="blue" fromJunction="J4" toJunction="cluster_1128138750_6304811528"/>
+    <flow id="f_11" begin="0.00" end="3600.00" period="exp(0.22000000000000000111)" color="green" fromJunction="J8" toJunction="6588494340"/>
+    <flow id="f_12" begin="0.00" end="3600.00" period="exp(0.34000000000000002442)" color="magenta" fromJunction="J8" toJunction="7645932603"/>
+    <flow id="f_13" begin="0.00" end="3600.00" period="exp(0.11000000000000000056)" color="0,128,128" fromJunction="1130035964" toJunction="1130035659"/>
+    <flow id="f_14" begin="0.00" end="3600.00" period="exp(0.11000000000000000056)" color="cyan" fromJunction="1130035964" toJunction="6317381793"/>
+    <flow id="f_15" begin="0.00" end="3600.00" period="exp(0.14999999999999999445)" color="red" fromJunction="7806952785" toJunction="6317381805"/>
+    <flow id="f_16" begin="0.00" end="3600.00" period="exp(0.11000000000000000056)" color="119,119,119" fromJunction="4030969295" toJunction="1130035759"/>
+    <flow id="f_17" begin="0.00" end="3600.00" period="exp(0.11000000000000000056)" color="white" fromJunction="4030969295" toJunction="4030989861"/>
+    <flow id="f_18" begin="0.00" end="3600.00" period="exp(0.22000000000000000111)" color="red" fromJunction="7806952785" toJunction="7645933830"/>
+    <flow id="f_2" begin="0.00" end="3500.00" period="exp(0.22000000000000000111)" color="magenta" fromJunction="7806952785" toJunction="1128252885"/>
+    <flow id="f_20" begin="0.00" end="3600.00" period="exp(0.22000000000000000111)" color="147,23,155" fromJunction="4229667114" toJunction="6583781451"/>
+    <flow id="f_21" begin="0.00" end="3600.00" period="exp(0.11999999999999999556)" color="147,23,155" fromJunction="J24" toJunction="J28"/>
+    <flow id="f_22" begin="0.00" end="3600.00" period="exp(0.22000000000000000111)" color="0,255,175" fromJunction="7806952785" toJunction="7646205007"/>
+    <flow id="f_23" begin="0.00" end="3500.00" period="exp(0.22000000000000000111)" color="blue" fromJunction="J16" toJunction="cluster_1128138750_6304811528"/>
+    <flow id="f_24" begin="0.00" end="1800.00" period="exp(0.22000000000000000111)" fromJunction="7806952785" toJunction="J20"/>
+    <flow id="f_25" begin="0.00" end="3600.00" period="exp(0.14999999999999999445)" fromJunction="4030969295" toJunction="cluster_1128184367_7626360778"/>
+    <flow id="f_3" begin="0.00" end="3600.00" period="exp(0.22000000000000000111)" color="0,255,175" fromJunction="7806952785" toJunction="cluster_6584025877_7648303904"/>
+    <flow id="f_4" begin="0.00" end="3600.00" period="exp(0.22000000000000000111)" color="blue" fromJunction="J4" toJunction="1128253516"/>
+    <flow id="f_5" begin="0.00" end="3600.00" period="exp(0.04000000000000000083)" color="128,0,0" fromJunction="J4" toJunction="J17"/>
+    <flow id="f_6" begin="0.00" end="1000.00" period="exp(0.10000000000000000555)" color="0,128,128" fromJunction="cluster_6913160283_7791048931" toJunction="cluster_5177323246_6304811527"/>
+    <flow id="f_7" begin="0.00" end="3600.00" period="exp(0.11000000000000000056)" color="128,0,0" fromJunction="J8" toJunction="J19"/>
+    <flow id="f_8" begin="0.00" end="1800.00" period="exp(0.22000000000000000111)" fromJunction="J37" toJunction="6581441847"/>
+    <flow id="f_9" begin="0.00" end="3600.00" period="exp(0.22000000000000000111)" color="magenta" fromJunction="J8" toJunction="cluster_7645933875_7645933877"/>
+    <flow id="truck_1" type="truck" begin="0.00" end="3600.00" period="exp(0.04000000000000000083)" color="red" fromJunction="7806952785" toJunction="1128252885"/>
+    <flow id="truck_2" type="truck" begin="0.00" end="3600.00" period="exp(0.04000000000000000083)" color="red" fromJunction="7806952785" toJunction="J28"/>
+    <flow id="truck_3" type="truck" begin="0.00" end="3600.00" period="exp(0.04000000000000000083)" color="red" fromJunction="4030969295" toJunction="1094558909"/>
+    <flow id="truck_4" type="truck" begin="0.00" end="3600.00" period="exp(0.04000000000000000083)" color="red" fromJunction="J8" toJunction="cluster_7791048926_7791048927"/>
+    <flow id="truck_5" type="truck" begin="0.00" end="3600.00" period="exp(0.04000000000000000083)" color="red" fromJunction="1130035964" toJunction="J20"/>
+    <flow id="truck_6" type="truck" begin="0.00" end="1800.00" period="exp(0.02999999999999999889)" color="255,0,64" fromJunction="4229667114" toJunction="6583781471"/>
+</routes>

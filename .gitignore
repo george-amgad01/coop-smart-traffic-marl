@@ -1,0 +1,15 @@
+assiut_traffic_monitor/
+assiut_traffic_monitor - Copy/
+dashboard/
+dataset_1/
+saved_models/
+sumo_env/
+UA-DETRAC-DATASET-10K.v2-2024-11-14-3-48pm.yolov8/
+
+__pycache__/
+.idea/
+
+*.whl
+*.log
+visual_test_*.png
+e2_*.xml
